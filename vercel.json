@@ -1,20 +1,8 @@
 {
-  "version": 2,
-  "name": "scholarsync",
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/next"
-    }
-  ],
   "functions": {
-    "src/app/api/**/*.ts": {
+    "app/api/**/*.ts": {
       "maxDuration": 30
     }
-  },
-  "env": {
-    "AI_ENABLED": "true",
-    "NODE_ENV": "production"
   },
   "headers": [
     {

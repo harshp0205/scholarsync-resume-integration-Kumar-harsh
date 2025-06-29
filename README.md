@@ -3,8 +3,11 @@
 [![Next.js](https://img.shields.io/badge/Next.js-15.3.4-black)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-38B2AC)](https://tailwindcss.com/)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-🚀-brightgreen)](https://scholarsync-resume-integration-kuma.vercel.app/)
 
 Intelligently connect your resume with Google Scholar data to discover personalized research projects using AI-powered suggestions.
+
+**🌐 Try it live**: [scholarsync-resume-integration-kuma.vercel.app](https://scholarsync-resume-integration-kuma.vercel.app/)
 
 ## ✨ Key Features
 
@@ -15,8 +18,11 @@ Intelligently connect your resume with Google Scholar data to discover personali
 - **🔒 Secure & Validated**: Input validation, rate limiting, and error handling
 - **📱 Responsive Design**: Modern UI with Tailwind CSS
 
-## 🚀 Quick Start
+## 🚀 Live Demo & Quick Start
 
+**🌐 Live Application**: [https://scholarsync-resume-integration-kuma.vercel.app/](https://scholarsync-resume-integration-kuma.vercel.app/)
+
+### Local Development
 ```bash
 # Clone repository
 git clone https://github.com/harshp0205/scholarsync-resume-integration-Kumar-harsh.git
@@ -31,7 +37,6 @@ cp .env.example .env.local
 
 # Start development server
 npm run dev
-# Open http://localhost:3000
 ```
 
 ## 🤖 AI vs Template Suggestions
@@ -97,14 +102,11 @@ GOOGLE_GEMINI_API_KEY=your_api_key_here
 AI_ENABLED=true
 ```
 
-## 📄 License
+## 🔗 Links
 
-MIT License - see [LICENSE](LICENSE) file for details.
+- **🌐 Live Demo**: [scholarsync-resume-integration-kuma.vercel.app](https://scholarsync-resume-integration-kuma.vercel.app/)
+- **📚 GitHub**: [Project Repository](https://github.com/harshp0205/scholarsync-resume-integration-Kumar-harsh)
 
-##  Contact
-
-- **Email**: hello@researchcommons.ai
-- **GitHub**: [Project Repository](https://github.com/harshp0205/scholarsync-resume-integration-Kumar-harsh)
 
 ---
 

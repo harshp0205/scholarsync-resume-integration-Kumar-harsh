@@ -102,7 +102,7 @@ const ScholarProfileFetcher: React.FC<ScholarProfileFetcherProps> = ({
               value={url}
               onChange={(e) => setUrl(e.target.value)}
               placeholder="https://scholar.google.com/citations?user=..."
-              className="flex-1 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
+              className="flex-1 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 text-gray-900 placeholder-gray-400"
               disabled={isLoading}
             />
             <button
@@ -127,7 +127,7 @@ const ScholarProfileFetcher: React.FC<ScholarProfileFetcherProps> = ({
             value={searchQuery}
             onChange={handleSearchInput}
             placeholder="Search for papers, authors, or topics..."
-            className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
+            className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 text-gray-900 placeholder-gray-400"
           />
         </div>
 

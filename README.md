@@ -47,13 +47,13 @@ npm run dev
 
 **Setup AI**: Get free API key from [Google AI Studio](https://aistudio.google.com/app/apikey) → Add to `.env.local`
 
-## ️ Tech Stack
+## ⚙️ Tech Stack
 
 - **Frontend**: Next.js 15 + TypeScript + Tailwind CSS + Redux Toolkit
 - **Backend**: Next.js API Routes + pdf-parse + Cheerio
 - **AI**: Google Gemini API for intelligent suggestions
 - **Testing**: Jest + React Testing Library + Cypress
-- **Deployment**: Vercel-ready with CI/CD pipeline
+- **Deployment**: Vercel-ready
 
 ## 🧪 Testing & Development
 
